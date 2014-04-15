@@ -24,3 +24,7 @@ Digital Coin Resources
 http://en.wikipedia.org/wiki/Digital_currency
 https://www.coins-e.com/exchange/api/documentation/ - API we should use
 
+Heroku Dyno
+=============
+https://serene-refuge-9162.herokuapp.com/
+
