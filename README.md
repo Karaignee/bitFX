@@ -23,6 +23,8 @@ Digital Coin Resources
 =======================
 http://en.wikipedia.org/wiki/Digital_currency
 https://www.coins-e.com/exchange/api/documentation/ - API we should use
+https://openexchangerates.org/    - alternative API
+http://stackoverflow.com/questions/3139879/how-do-i-get-currency-exchange-rates-via-an-api-such-as-google-finance
 
 Heroku Dyno
 =============
