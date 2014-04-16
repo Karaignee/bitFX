@@ -18,6 +18,8 @@
 
    match '/contact' => 'static_pages#contact'
 
+  match '/charts' => 'static_pages#charts'
+
    root :to => "static_pages#home"
 
   # The priority is based upon order of creation:
