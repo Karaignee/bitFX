@@ -5,6 +5,16 @@
   	This is the home page for the RIA Project of Karen Rooney, Mark Ryder and Shane Arrowsmith.
   </h2>
 
+
+<div ng-app ng-controller="marketList" ng-init="getRates()">
+
+  <ul>
+    <li ng-repeat="rate in rates">
+      {{rates.rates}}
+    </li>
+  </ul>
+</div>
+
   <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 
