@@ -1,14 +1,36 @@
 ---
+FontAwesome.otf: FontAwesome-d2e1f2cb067bb8a9b129341f5ed85582.otf
+FontAwesome/index.otf: FontAwesome-d2e1f2cb067bb8a9b129341f5ed85582.otf
+fontawesome-webfont.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
+fontawesome-webfont/index.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot
+fontawesome-webfont.svg: fontawesome-webfont-f1c2889911d212e1403b68eabc1a3a56.svg
+fontawesome-webfont/index.svg: fontawesome-webfont-f1c2889911d212e1403b68eabc1a3a56.svg
+fontawesome-webfont.ttf: fontawesome-webfont-fb7a72c810ec644f3c26dcca68638308.ttf
+fontawesome-webfont/index.ttf: fontawesome-webfont-fb7a72c810ec644f3c26dcca68638308.ttf
+fontawesome-webfont.woff: fontawesome-webfont-b4d67f1e5651506c3e80d842ee67d6ba.woff
+fontawesome-webfont/index.woff: fontawesome-webfont-b4d67f1e5651506c3e80d842ee67d6ba.woff
+glyphicons-halflings-regular.eot: glyphicons-halflings-regular-a976b4f46980969d9792e0ff9f3afc17.eot
+glyphicons-halflings-regular/index.eot: glyphicons-halflings-regular-a976b4f46980969d9792e0ff9f3afc17.eot
+glyphicons-halflings-regular.svg: glyphicons-halflings-regular-595b0dff8f518e7a10f758209838ab0b.svg
+glyphicons-halflings-regular/index.svg: glyphicons-halflings-regular-595b0dff8f518e7a10f758209838ab0b.svg
+glyphicons-halflings-regular.ttf: glyphicons-halflings-regular-b7248b70474d970f596df264c4f9b5ab.ttf
+glyphicons-halflings-regular/index.ttf: glyphicons-halflings-regular-b7248b70474d970f596df264c4f9b5ab.ttf
+glyphicons-halflings-regular.woff: glyphicons-halflings-regular-c866ecc8bb1c848e2a8557b67499891d.woff
+glyphicons-halflings-regular/index.woff: glyphicons-halflings-regular-c866ecc8bb1c848e2a8557b67499891d.woff
 BitFx Mock Ups.pdf: BitFx Mock Ups-bb6c12c04628a683df8ae17d9df3985b.pdf
 BitFx Mock Ups/index.pdf: BitFx Mock Ups-bb6c12c04628a683df8ae17d9df3985b.pdf
 bitFix coin links.pdf: bitFix coin links-2c4beb096c3ddb2f349a48ee94e5d704.pdf
 bitFix coin links/index.pdf: bitFix coin links-2c4beb096c3ddb2f349a48ee94e5d704.pdf
-rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-a06a28fcf8a9e36a8896738745f99499.js
-application/index.js: application-a06a28fcf8a9e36a8896738745f99499.js
-application.css: application-1a2de11ec90bb8a0c51d26b5ed855089.css
-application/index.css: application-1a2de11ec90bb8a0c51d26b5ed855089.css
+karen.png: karen-51113a2bd8e3a14eb877d97e59a35508.png
+karen/index.png: karen-51113a2bd8e3a14eb877d97e59a35508.png
+mark.png: mark-88452ada629f1c06ad2744370608dad4.png
+mark/index.png: mark-88452ada629f1c06ad2744370608dad4.png
+shane.png: shane-08345985e6c5e346d928ab7317736a49.png
+shane/index.png: shane-08345985e6c5e346d928ab7317736a49.png
+application.js: application-94f919aec14d5f9bedd3bba2665a73d2.js
+application/index.js: application-94f919aec14d5f9bedd3bba2665a73d2.js
+application.css: application-63605047638d50348a3d8f0de760c6ee.css
+application/index.css: application-63605047638d50348a3d8f0de760c6ee.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
