@@ -2,7 +2,7 @@
  * Created by Mr Ryder on 18/04/14.
  */
 
-function marketList($scope, $http){
+angular.module("bitFX").controller('marketList',['$scope', '$http', function($scope, $http){
     $scope.rates=[];
 
     $scope.getRates = function(){
@@ -16,4 +16,4 @@ function marketList($scope, $http){
 
     });
     }
-};
+}]);
