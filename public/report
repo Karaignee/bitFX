@@ -1,0 +1,76 @@
+Project Report Title
+Karen Rooney
+Shane Arrowsmith
+Mark Ryder
+
+Motivation [5%]
+
+
+
+
+(from wikipedia)Bitcoin[note 2] is a peer-to-peer payment system introduced as open source software in 2009 by developer Satoshi Nakamoto. The digital currency created and used in the system is alternatively referred to as a virtual currency, electronic money, or acryptocurrency because cryptography is used to control its creation and transfer.[5] The Bitcoin system is not controlled by a single entity, like a central bank, which has led the US Treasury to call bitcoin a decentralized currency,[6] although it does not meet the generally recognized definition of a currency.
+Bitcoins are created by a process called mining, in which users who offer their computing power verify and record payments into a public ledger in exchange for transaction fees and newly minted bitcoins.[7] Users can buy, send and receive bitcoins electronically for a nominal fee using wallet software on a personal computer, mobile device, or a web application. Bitcoins can be obtained by mining or in exchange for products, services, or other currencies.[8]
+Bitcoin has been a subject of scrutiny amid concerns that it can be used for illegal activities.[9] In October 2013 the US FBI shut down the Silk Road online black market and seized 144,000 bitcoins worth US$28.5 million at the time.[10] The US is considered Bitcoin-friendly compared to other governments, however.[11] In China new rules restrict bitcoin exchange for local currency.[12]
+Bitcoin as a form of payment for products and services has seen growth, and merchants have an incentive to accept the currency because transaction fees are lower than the 2–3% typically imposed by credit card processors.[13] The European Banking Authority has warned that Bitcoin lacks consumer protections.[14] Bitcoins can be stolen and chargebacks are impossible.[15]Commercial use of Bitcoin is currently small compared to its use by speculators, which has fueled price volatility.[16]
+
+
+Project Scope
+
+The purpose of this project is to produce an online tracking and display of BitCoin and other online currency values
+http://www.coindesk.com/
+http://www.bss.com.au/solutions/foreign-exchange-rate-display.html (real forex boards)
+
+Area of contribution:
+This should describe the general problem area. For example, what is a problem in educational environments and how might they be better developed through the application of a RIA.
+
+BIT currency FX boards and values and charts for online currency holders
+
+• State of the Art Review [30%]
+• This section should outline a literature review of the methodologies.
+Describe investigation into current practice
+** APIs, Angular, JSON, Bootstrap/Responsive, Rails, TDD
+
+Other rich Internet applications, and academic/industrial research that is reported in conferences and journal articles.
+** existing FX apps??
+
+Criticial analysis of your selected approach - decision about both the innovation undertaken and the technologies selected.
+** why we chose FX & bitcoin, why we picked those tools, what's missing or flawed or slow etc.
+
+• User Interface Design [20%]
+how the controls in your application deliver a successful UI experience.
+ ** some bullshit
+
+• Architecture [25%]
+• Application Architecture:
+Outline the solution architecture for your application. You should
+justify the approach you took, and how it supports the project
+scope. This means mapping back to the state of the art review
+when describing the features and functionality of your system.
+
+• Security:
+Evaluate industry standard error handling, and outline how you
+integrated these approaches within your application.
+
+• Toolkits and Frameworks:
+• Discuss the toolkits and frameworks used and the justification for
+using them.
+
+• Data Transfer Strategies:
+• This section looks at the access and transporting of data to be
+consumed/created by the RIA.
+
+• Evaluation and Testing:
+You must include a short description of how your application was
+evaluated for its audience.
+Critically analyse the testing methodology employed, as well as any
+debugging techniques you used in building the application.
+
+• Summary [10%]
+ brief summary
+ what changes you would make
+ future work that would benefit your application...
+
+• References [10%]
+• Please refer to the Harvard guidebook. Ensure to correctly
+reference all resources using the Harvard style of referencing
+https://www.yumpu.com/en/document/view/11394689/harvard-referencing-quick-guide-national-college-of-ireland
