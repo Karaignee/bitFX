@@ -199,3 +199,16 @@ input, textarea, select, .uneditable-input {
 	margin-top: 45px;
 	@include box_sizing;
 }
+
+.hero-unit{
+	min-height: auto;
+}
+
+.offset1 {
+	text-align: center;
+}
+
+.offset a:hover{
+	text-decoration: none;
+}
+
