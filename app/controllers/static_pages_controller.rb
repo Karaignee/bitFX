@@ -1,5 +1,4 @@
 class StaticPagesController < ApplicationController
-	
   def home
   end
 
@@ -10,9 +9,5 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
-  end
-
-  def current_rates
-  end
-
+  end	
 end
