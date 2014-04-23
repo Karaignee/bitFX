@@ -4,6 +4,8 @@
 
 <div ng-app ng-controller="marketList" ng-init="getRates()">
 <table>
+  <th>Currency </th>
+  <th>Rates </th>
   <tr ng-repeat="(key, data) in rates.rates">
     <td>{{key}}</td>
     <td>{{data}}</td>
