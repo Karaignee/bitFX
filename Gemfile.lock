@@ -121,8 +121,6 @@ GEM
     mini_portile (0.5.2)
     multi_json (1.8.4)
     multi_test (0.0.3)
-    ngmin-rails (0.4.0)
-      rails (>= 3.1)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     nokogiri (1.6.1-x86-mingw32)
@@ -248,7 +246,6 @@ DEPENDENCIES
   jasmine-rails
   jquery-rails
   libnotify (= 0.5.9)
-  ngmin-rails
   pg (= 0.12.2)
   rails (= 3.2.12)
   rails_12factor
