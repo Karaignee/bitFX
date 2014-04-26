@@ -199,3 +199,12 @@ input, textarea, select, .uneditable-input {
 	margin-top: 45px;
 	@include box_sizing;
 }
+.divLeft{
+  float: left;
+  position: absolute;
+  width: 304px;
+}
+.divRight{
+  margin-left: 305px;
+  width:240px;
+}
