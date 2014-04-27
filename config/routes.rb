@@ -1,5 +1,9 @@
  SampleApp::Application.routes.draw do 
    
+  get '/fx_api/:ccy(:/since_date)' => 'fx_api#show'
+  resources :rates, only: [:index, :create]
+  #get "rates/index"
+
   mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)
 
    resources :users  
