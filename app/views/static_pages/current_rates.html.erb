@@ -5,7 +5,7 @@
 
 <div ng-app="app">
 <div class="divLeft" ng-controller="currencyList" ng-init="getCurrencies()">
-  <table>
+  <table class="table table-striped table-bordered table-condensed">
     <th>Currency</th>
     <tr ng-repeat="(key, data) in currency">
     <td>{{data}}</td>
@@ -14,7 +14,7 @@
   </div>
 
 <div class="divRight" ng-controller="marketList" ng-init="getRates()">
-<table>
+<table class="table table-striped table-bordered table-condensed">
   <th>Currency Abr</th>
   <th>Rates </th>
   <tr ng-repeat="(key, data) in rates.rates">
