@@ -14471,3 +14471,422 @@ Served asset /karen.png - 304 Not Modified (0ms)
 
 Started GET "/assets/mark.png" for 127.0.0.1 at 2014-04-29 21:09:29 +0100
 Served asset /mark.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2014-04-29 21:16:26 +0100
+Connecting to database specified by database.yml
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (51.3ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 254ms (Views: 224.9ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-29 21:16:27 +0100
+Served asset /custom.css - 200 OK (65ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-04-29 21:16:27 +0100
+Served asset /font-awesome.min.css - 200 OK (8ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-29 21:16:27 +0100
+Served asset /font-awesome.css - 200 OK (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-29 21:16:27 +0100
+Served asset /sessions.css - 200 OK (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-29 21:16:27 +0100
+Served asset /main.css - 200 OK (12ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 21:16:27 +0100
+Served asset /static_pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /users.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /jquery.js - 200 OK (45ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /static_pages.js - 200 OK (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /users.js - 200 OK (22ms)
+
+
+Started GET "/assets/shane.png" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /shane.png - 200 OK (1ms)
+
+
+Started GET "/assets/karen.png" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /karen.png - 200 OK (11ms)
+
+
+Started GET "/assets/mark.png" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /mark.png - 200 OK (1ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+Served asset /fontawesome-webfont.woff - 200 OK (16ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.2.1" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/wafuser/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.2.1" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/wafuser/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/font/fontawesome-webfont.svg" for 127.0.0.1 at 2014-04-29 21:16:28 +0100
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.svg"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/wafuser/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/wafuser/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+Compiled main.css  (0ms)  (pid 2824)
+Compiled application.css  (3ms)  (pid 2824)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 133ms (Views: 132.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /custom.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /main.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shane.png" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /shane.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/karen.png" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /karen.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mark.png" for 127.0.0.1 at 2014-04-29 21:17:19 +0100
+Served asset /mark.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.7ms)
+Compiled main.css  (0ms)  (pid 2824)
+Compiled application.css  (3ms)  (pid 2824)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 116ms (Views: 115.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /custom.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /font-awesome.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /main.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /sessions.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shane.png" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /shane.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/karen.png" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /karen.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/mark.png" for 127.0.0.1 at 2014-04-29 21:18:03 +0100
+Served asset /mark.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /jquery.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:19 +0100
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/current_rates" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Processing by StaticPagesController#current_rates as HTML
+  Rendered static_pages/current_rates.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /font-awesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /sessions.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-04-29 21:18:21 +0100
+Served asset /static_pages.js - 304 Not Modified (0ms)
