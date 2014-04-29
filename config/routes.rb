@@ -1,6 +1,7 @@
  SampleApp::Application.routes.draw do 
-   
-  get '/fx_api/:ccy(:/since_date)' => 'fx_api#show'
+
+  get '/fx_api/currency_list' => 'fx_api#index'
+  get '/fx_api/:ccy(/:since_date)' => 'fx_api#show'
   resources :rates, only: [:index, :create]
   #get "rates/index"
 
