@@ -1,4 +1,6 @@
-
+/**
+ * Created by Mrs Ryder on 18/04/14.
+ */
 var app = angular.module('myApp', []);
 
 app.controller('currencyList', function ($scope, $http){
