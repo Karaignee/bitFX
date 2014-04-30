@@ -204,7 +204,14 @@ input, textarea, select, .uneditable-input {
   position: absolute;
   width: 304px;
 }
-.divRight{
+
+.divMid{
+  position: absolute;
   margin-left: 305px;
   width:240px;
+}
+
+.divRight{
+  margin-left: 550px;
+  width:200px;
 }
