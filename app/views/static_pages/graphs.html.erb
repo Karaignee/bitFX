@@ -1,0 +1,82 @@
+<h1>Currency Rates History</h1>
+<div class="row">
+  <div class="col-md-12">
+    <%= form_tag currency_list_url, method: :get do %>
+      <select class="form-control" id="currency_dropdown"></select>
+    <% end %>
+    <div id="chart"></div>
+  </div>
+</div>
+
+<script>
+
+  function get_currency_list() {
+    var menu = $('#currency_dropdown');
+    menu.append('<option>Please select...</option>');
+    $.get('/fx_api/currency_list', function(response) {
+      for(var counter = 0; counter < response.length; counter ++) {
+        menu.append('<option>' + response[counter] + '</option>');
+      }
+    });
+    menu.on('change', function() {
+      update_graph();
+    });
+  }
+
+  function update_graph() {
+    var menu = $('#currency_dropdown');
+    alert(menu.val());
+    /* will need to call fx_api (e.g. fx_api/eur/date) to get the exchange rates
+    and then need to draw the graph
+     */
+   }
+
+  $(function () {
+    $('#chart').highcharts({
+      chart: {
+        type: 'bar'
+      },
+      title: {
+        text: 'Fruit Consumption'
+      },
+      xAxis: {
+        categories: ['Apples', 'Bananas', 'Oranges']
+      },
+      yAxis: {
+        title: {
+          text: 'Fruit eaten'
+        }
+      },
+      series: [{
+        name: 'Jane',
+        data: [1, 0, 4]
+      }, {
+        name: 'John',
+        data: [5, 7, 3]
+      }]
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  $(document).on('ready', function() {
+    get_currency_list();
+  })
+
+</script>

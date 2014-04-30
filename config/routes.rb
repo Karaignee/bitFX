@@ -1,6 +1,6 @@
  SampleApp::Application.routes.draw do 
 
-  get '/fx_api/currency_list' => 'fx_api#index'
+  get '/fx_api/currency_list' => 'fx_api#index', as: :currency_list
   get '/fx_api/:ccy(/:since_date)' => 'fx_api#show'
   resources :rates, only: [:index, :create]
   #get "rates/index"
@@ -24,6 +24,8 @@
    match '/contact' => 'static_pages#contact'
 
    match '/current_rates' => 'static_pages#current_rates'
+
+   match '/graphs' => 'static_pages#graphs'
 
    root :to => "static_pages#home"
 
