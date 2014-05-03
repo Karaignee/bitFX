@@ -1,0 +1,110 @@
+.page{
+    background-color:#f8f8f8;
+}
+
+#hor{
+    margin-left: 81px;
+}
+
+
+.container1 {
+    display:inline-block;
+    margin-top: 15px;
+
+    
+}
+.container2 {
+    position:relative;
+    overflow:hidden;
+    width:200px;
+}
+
+.container2 .img-circle {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+.contacts {
+	margin-top: 0;
+    position:absolute;
+    top:100%;
+    left:25px;
+    display:block;
+    width:150px; /* as image */
+    height:150px; /* as image */
+    line-height:200px; /* as image */
+    text-align:center;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    background:rgba(248,248,248,0.5);
+    border-radius:50%;
+    transition:top 0.5s ease;
+}
+
+.contacts p {
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-top: 90px;
+	color: #666;
+}
+
+.contacts p a{
+	
+	color: #666;
+}
+
+.contacts p a:hover {
+	color: #3767B8;
+    text-decoration: none;
+}
+
+.container2:hover .contacts {
+    top:0;
+}
+
+
+
+#contain {
+	margin-left:10%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+h3.staffBio {
+    font-size: 20px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#aboutus {
+    margin-left: 45px;
+}
+
+.aboutus{
+    height:600px;
+    background-color: #EEEEEE;
+    border-radius: 3%;
+    margin-top: 40px;
+}
+
+#abouthead{
+    margin-top: 15px;
+}
+

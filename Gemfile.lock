@@ -248,6 +248,7 @@ DEPENDENCIES
   database_cleaner (= 0.7.0)
   factory_girl_rails (= 1.4.0)
   faker (= 1.0.1)
+  font-awesome-rails
   guard-rspec (= 0.5.5)
   guard-spork (= 0.3.2)
   httparty
