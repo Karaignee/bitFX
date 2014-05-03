@@ -3,7 +3,7 @@ class FxRates < ActiveRecord::Base
 
   #validations
   validates :value_date, presence: true
-  validates :currency, presence: true
+  validates :currency, presence: true, uniqueness: {scope: :value_date}
   validates :rate, presence: true, numericality: true
 
   #callbacks
@@ -16,7 +16,7 @@ class FxRates < ActiveRecord::Base
 
   #class methods
   def self.latest_date
-    FxRates.order(value_date: :desc).first.try(:value_date) || Date.new(2014, 4, 1)
+    FxRates.order(value_date: :desc).first.try(:value_date) || Date.new(2014, 1, 1)
   end
 
   def self.list_of_currencies
